@@ -11,7 +11,7 @@ public class OrderService {
 
     private MemberRepository memberRepository;
 
-    public OrderService() {
+    public OrderService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
